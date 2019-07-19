@@ -1,69 +1,90 @@
 - name: Thomas Clements
   handicap: 19
   country: North Yorkshire
-  flag:
+  flag: yorkshire.png
   bio: The defending champion
-  photo: /assets/img/thomas.jpg
+  photo: thomas.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Greg Butt
+  handicap: NA
+  country: England
+  flag: england.jpg
+  bio:
+  photo: greg.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Harry Langdon
+  handicap: 24
+  country: England
+  flag: england.jpg
+  bio:
+  photo: harry.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Alan Mead
+  handicap: 28
+  country: England
+  flag: england.jpg
+  bio:
+  photo: alan.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Jamie Mead
+  handicap: NA
+  country: England
+  flag: england.jpg
+  bio:
+  photo: jamie.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Sam Mead
+  handicap: 17
+  country: England
+  flag: devon.svg
+  bio:
+  photo: sam.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Cristina Revuelta Aguilar
+  handicap: 10
+  country: Spain
+  flag: spain.png
+  bio:
+  photo: cristina.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Alistair Shepherd
+  handicap: NA
+  country: Scotland
+  flag: scotland.png
+  bio:
+  photo: alistair.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Benedicte Soland
+  handicap: 14
+  country: Sweden
+  flag: sweden.png
+  bio:
+  photo: benedicte.jpg
 
-- name: Thomas Clements
-  handicap: 19
-  country: North Yorkshire
-  flag:
-  bio: The defending champion
-  photo:
+- name: Samuel Smith
+  handicap: NA
+  country: England
+  flag: england.jpg
+  bio:
+  photo: samuel.jpg
+
+- name: Mark Tang
+  handicap: 17
+  country: Hong Kong Special Administrative Region, People's Republic of China
+  flag: hk.svg
+  bio:
+  photo: mark.jpg
+
+- name: Josh Taylor
+  handicap: 10
+  country: England
+  flag: england.jpg
+  bio:
+  photo: josh.jpg
+
+- name: Appin Williamson
+  handicap: NA
+  country: Scotland
+  flag: scotland.png
+  bio:
+  photo: appin.jpg

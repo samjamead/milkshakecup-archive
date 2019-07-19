@@ -23,15 +23,22 @@ layout: default
     <p>We will play nine holes, stop for a bite to eat, then play the second nine holes. The draw for the first round groups will be out of the hat. Second round groups will be determined by the score after nine holes. The winner is the golfer with the lowest net score after 18 holes!</p>
 
     <p>
-      <strong>Startlist</strong> <br />
+      <strong>The Players</strong> <br />
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
 
     <div class="golfers">
+
       {% for golfer in site.data.golfers %}
         <div class="golfer">
-          <h3>{{ golfer.name }} &ndash; <small>HCP {{ golfer.handicap }}</small></h3>
-          <p>{{ golfer.bio }}</p>
+          <img class="golfer__photo" src="./assets/img/{{ golfer.photo }}" alt="{{ golfer.name }} photo" />
+          <div class="golfer__copy">
+            <h3>{{ golfer.name }}</h3>
+            <div class="golfer__country">
+              <img class="golfer__flag" src="./assets/img/flags/{{ golfer.flag }}" alt="{{ golfer.country }} flag" />
+              <h4>{{ golfer.country }}</h4>
+            </div>
+          </div>
         </div>
       {% endfor %}
     </div>
