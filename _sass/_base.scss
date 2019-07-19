@@ -1,0 +1,49 @@
+// Reset spacing
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: $base-font-family;
+}
+h1, h2, h3, h4 {
+  font-family: $headings-font-family;
+  color: $copy-colour;
+  margin: 0;
+  font-weight: normal;
+}
+h2 {
+  margin-bottom: 1em;
+}
+p {
+  font-size: $base-font-size;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  color: $copy-colour;
+}
+a {
+  text-decoration: none;
+  color: $brand-color;
+}
+ul {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  li {
+    margin-bottom: 1rem;
+  }
+}
+img {
+  max-width: 100%;
+}
+section {
+  padding: 1rem 0;
+}

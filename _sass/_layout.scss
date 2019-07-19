@@ -1,0 +1,30 @@
+.container {
+  max-width: 650px;
+  margin: 0px auto;
+  padding: 0 10px;
+  @include for-tablet-landscape-up {
+    padding: 0;
+  }
+}
+.golfers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @include for-tablet-landscape-up {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .golfer {
+    border: 1px solid $brand-color;
+    border-radius: 6px;
+    padding: 10px;
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+    @include for-tablet-landscape-up {
+      flex: 0 0 49%;
+    }
+    h3 {
+      margin-bottom: 0.5em;
+    }
+  }
+}
