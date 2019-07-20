@@ -24,7 +24,7 @@ section { padding: 1rem 0; }
 .site__header { padding: 2rem 10px 1rem; border-bottom: 1px solid #2C60FE; }
 @media (min-width: 900px) { .site__header { padding-left: 0; padding-right: 0; } }
 
-footer { position: absolute; left: 0; bottom: 0; width: 100%; }
+footer { width: 100%; }
 
 .site-footer { border-top: 1px solid #2C60FE; margin-top: 50px; background: #f8f8f8; padding: 50px 0; text-align: center; }
 .site-footer h4 { font-weight: bold; }

@@ -7,9 +7,6 @@ jQuery( document ).ready(function($){
     return false;
   });
 
-  // Stick the footer to the bottom of the page
-  stickyFooter();
-
   // Toggle menu
   var $hamburger = $('.hamburger');
   $hamburger.on("click", function(){
@@ -18,9 +15,3 @@ jQuery( document ).ready(function($){
   });
 
 });
-
-// Dynamically set bottom margin of body for sticky footer
-function stickyFooter() {
-  var bodyBottomMargin = $('footer').outerHeight();
-  $("body").css("margin-bottom", bodyBottomMargin);
-}
