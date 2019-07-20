@@ -23,8 +23,35 @@ layout: default
     <p>We will play nine holes, stop for a bite to eat, then play the second nine holes. The draw for the first round groups will be out of the hat. Second round groups will be determined by the score after nine holes. The winner is the golfer with the lowest net score after 18 holes!</p>
 
     <p>
-      <strong>The Players</strong> <br />
+      <strong>Champion's Address</strong> <br />
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+    <p>&ndash; Thomas Clements</p>
+
+    <p>
+      <strong>First Round Draw</strong> <br />
+      To be completed by Friday 26 July<br /><br />
+      <strong>11.00</strong> <br />
+      1. <br />
+      2. <br />
+      3. <br /><br />
+      <strong>11.10</strong> <br />
+      1. <br />
+      2. <br />
+      3. <br /><br />
+      <strong>11.20</strong> <br />
+      1. <br />
+      2. <br />
+      3. <br /><br />
+      <strong>11.30</strong> <br />
+      1. <br />
+      2. <br />
+      3. <br /><br />
+    </p>
+
+    <p>
+      <strong>The Players</strong> <br />
     </p>
 
     <div class="golfers">
@@ -38,6 +65,7 @@ layout: default
               <img class="golfer__flag" src="./assets/img/flags/{{ golfer.flag }}" alt="{{ golfer.country }} flag" />
               <h4>{{ golfer.country }}</h4>
             </div>
+            <p class="hcp">[{{ golfer.handicap }}]</p>
           </div>
         </div>
       {% endfor %}

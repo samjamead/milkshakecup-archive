@@ -6,7 +6,7 @@
   photo: thomas.jpg
 
 - name: Greg Butt
-  handicap: NA
+  handicap: --
   country: England
   flag: england.jpg
   bio:
@@ -27,7 +27,7 @@
   photo: alan.jpg
 
 - name: Jamie Mead
-  handicap: NA
+  handicap: --
   country: England
   flag: england.jpg
   bio:
@@ -48,7 +48,7 @@
   photo: cristina.jpg
 
 - name: Alistair Shepherd
-  handicap: NA
+  handicap: --
   country: Scotland
   flag: scotland.png
   bio:
@@ -62,14 +62,14 @@
   photo: benedicte.jpg
 
 - name: Samuel Smith
-  handicap: NA
+  handicap: --
   country: England
   flag: england.jpg
   bio:
   photo: samuel.jpg
 
 - name: Mark Tang
-  handicap: 17
+  handicap: --
   country: Hong Kong Special Administrative Region, People's Republic of China
   flag: hk.svg
   bio:
@@ -83,7 +83,7 @@
   photo: josh.jpg
 
 - name: Appin Williamson
-  handicap: NA
+  handicap: --
   country: Scotland
   flag: scotland.png
   bio:

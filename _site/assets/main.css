@@ -26,7 +26,8 @@ section { padding: 1rem 0; }
 
 footer { position: absolute; left: 0; bottom: 0; width: 100%; }
 
-.site-footer { border-top: 1px solid #2C60FE; margin-top: 50px; background: #f8f8f8; padding: 50px 0; }
+.site-footer { border-top: 1px solid #2C60FE; margin-top: 50px; background: #f8f8f8; padding: 50px 0; text-align: center; }
+.site-footer h4 { font-weight: bold; }
 
 .container { max-width: 650px; margin: 0px auto; padding: 0 10px; }
 @media (min-width: 900px) { .container { padding: 0; } }
@@ -36,8 +37,9 @@ footer { position: absolute; left: 0; bottom: 0; width: 100%; }
 .golfers .golfer { flex: 0 0 100%; margin-bottom: 1.33333rem; }
 @media (min-width: 900px) { .golfers .golfer { flex: 0 0 48%; } }
 .golfers .golfer .golfer__photo { height: 200px; width: 100%; object-fit: cover; }
-.golfers .golfer .golfer__copy { margin-top: -3px; padding: 20px 10px; background-color: #f2f2f2; text-align: center; }
+.golfers .golfer .golfer__copy { margin-top: -3px; padding: 20px 10px 15px; background-color: #f2f2f2; text-align: center; }
 .golfers .golfer .golfer__copy h3 { font-weight: bold; margin-bottom: 5px; font-size: 22px; }
+.golfers .golfer .golfer__copy .hcp { margin: 5px 0 0; font-size: 14px; letter-spacing: 1px; }
 .golfers .golfer .golfer__copy .golfer__country { display: flex; align-items: center; justify-content: center; }
 .golfers .golfer .golfer__copy .golfer__country .golfer__flag { max-width: 26px; margin-top: 1.5px; margin-right: 5px; }
 .golfers .golfer .golfer__copy .golfer__country h4 { text-transform: uppercase; letter-spacing: 0.5px; font-size: 12px; color: #777; }
