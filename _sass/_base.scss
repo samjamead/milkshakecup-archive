@@ -24,6 +24,10 @@ h1, h2, h3, h4 {
 h2 {
   margin-bottom: 1em;
 }
+h3 {
+  font-size: 20px;
+  margin-top: 2rem;
+}
 p {
   font-size: $base-font-size;
   line-height: 1.6;
@@ -32,7 +36,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: $brand-color;
+  color: $second-color;
 }
 ul {
   margin-left: 2rem;
@@ -44,6 +48,9 @@ ul {
 img {
   max-width: 100%;
 }
+hr {
+  border-bottom: 2px solid $second-color;
+}
 section {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }

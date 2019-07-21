@@ -1,8 +1,13 @@
 .site__header {
-  padding: 2rem 10px 1rem;
-  border-bottom: 1px solid $brand-color;
+  padding: 1rem 0;
+  background: $brand-color;
+  width: 100%;
   @include for-tablet-landscape-up {
     padding-left: 0;
     padding-right: 0;
   }
+  h1 {
+    color: #fff;
+  }
 }
+ 
