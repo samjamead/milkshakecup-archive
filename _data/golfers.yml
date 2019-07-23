@@ -54,26 +54,12 @@
   bio:
   photo: alistair.jpg
 
-- name: Benedicte Soland
-  handicap: 14
-  country: Norway
-  flag: norway.png
-  bio:
-  photo: benedicte.jpg
-
 - name: Samuel Smith
   handicap: --
   country: England
   flag: england.jpg
   bio:
   photo: samuel.jpg
-
-- name: Mark Tang
-  handicap: --
-  country: Hong Kong
-  flag: hk.svg
-  bio:
-  photo: mark.jpg
 
 - name: Josh Taylor
   handicap: 10
