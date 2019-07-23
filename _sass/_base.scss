@@ -48,6 +48,11 @@ ul {
 img {
   max-width: 100%;
 }
+button {
+  &:focus {
+    outline: none;
+  }
+}
 hr {
   border-bottom: 2px solid $second-color;
 }
