@@ -15,9 +15,9 @@
   h1 {
     color: #fff;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     @include for-tablet-landscape-up {
-      font-size: 32px;
+      font-size: 28px;
     };
   }
 }
