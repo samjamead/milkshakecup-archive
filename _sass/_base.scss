@@ -1,7 +1,7 @@
 // Reset spacing
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, img {
   margin: 0;
   padding: 0;
 }
@@ -57,5 +57,5 @@ hr {
   border-bottom: 2px solid $second-color;
 }
 section {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
