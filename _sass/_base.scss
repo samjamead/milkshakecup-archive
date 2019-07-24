@@ -14,6 +14,15 @@ html {
 }
 body {
   font-family: $base-font-family;
+  background-color: $background-grey;
+}
+.container {
+  max-width: 650px;
+  margin: 0px auto;
+  padding: 0 10px;
+  @include for-tablet-landscape-up {
+    padding: 0;
+  }
 }
 h1, h2, h3, h4 {
   font-family: $headings-font-family;
