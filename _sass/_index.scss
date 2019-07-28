@@ -79,6 +79,22 @@
   background-color: $second-color;
   color: #fff;
 }
+.tee__times {
+  h3 {
+    color: $second-color;
+    &:first-child {
+      margin-top: 5px;
+    }
+  }
+  ol {
+    margin-left: 2rem;
+  }
+  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: $headings-font-family;
+  }
+}
 .golfers {
   margin-top: 1rem;
   display: flex;
