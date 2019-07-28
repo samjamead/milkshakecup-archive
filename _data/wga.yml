@@ -12,11 +12,11 @@
 
 - hole: 4
   name: Willows
-  description: Played entirely over water, there's only about 6 feet of saftey short of the front of the green. Anything right is safe, but do shout fore if there's anyone on the 6th green!
+  description: Played entirely over water, there's only about 6 feet of safety short of the front of the green. Anything right is safe, but do shout fore if there's anyone on the 6th green!
 
 - hole: 5
   name: Rabbit Copse
-  description: A narrow hole, with a lateral water hazard all the way up the left, and bunkers protecting the green. Accuracy here is extremly important!
+  description: A narrow hole, with a lateral water hazard all the way up the left, and bunkers protecting the green. Accuracy here is of paramount importance!
 
 - hole: 6
   name: Lakeside
@@ -24,7 +24,7 @@
 
 - hole: 7
   name: The Burn
-  description: A tricky three-tierd green is protected by a wee burn at the front of the geen. It's possible to putt into the water hazard...
+  description: A tricky three-tierd green is protected by a wee burn at the front of the green. Long is safe, but too long and it might be possible to putt into the water hazard...
 
 - hole: 8
   name: Badgers Run
