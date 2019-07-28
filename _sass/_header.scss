@@ -1,16 +1,190 @@
-.site__header {
-  padding: 1rem 0;
+ .navbar {
   background: $brand-color;
   width: 100%;
-  @include for-tablet-landscape-up {
-    padding-left: 0;
-    padding-right: 0;
+  transition: 0.4s ease;
+  .site__header {
+    padding: 1rem 10px;
+    @include for-tablet-landscape-up {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   h1 {
     color: #fff;
+    display: inline-block;
     font-size: 18px;
     @include for-tablet-landscape-up {
-      font-size: 32px;
+      font-size: 28px;
     };
   }
 }
+
+nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background: $brand-color;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 0;
+      border-top: 1px solid $second-color;
+      &:last-child {
+        border-bottom: 1px solid $second-color;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 5px;
+        transition: 0.4s ease;
+        @include for-tablet-landscape-up {
+          padding: 2rem 1rem;
+        };
+        &:hover {
+          background: $second-color;
+          img {
+            margin-right: 0;
+          }
+        }
+        h3 {
+          margin-top: 0;
+          font-size: 17px;
+          margin-bottom: 8px;
+          color: #fff;
+          line-height: 1;
+          @include for-tablet-landscape-up {
+            font-size: 20px;
+            margin-bottom: 12px;
+          };
+        }
+        span {
+          color: $highlight-color;
+          font-size: 14px;
+          @include for-tablet-landscape-up {
+            font-size: 16px;
+          };
+        }
+        img {
+          max-width: 20px;
+          margin-right: 0;
+          transition: 0.4s ease;
+          filter: invert(72%) sepia(96%) saturate(2117%) hue-rotate(359deg) brightness(102%) contrast(104%);
+          @include for-tablet-landscape-up {
+            margin-right: 2rem;
+            max-width: 30px;
+          };
+        }
+      }
+    }
+  }
+  .logo {
+    display: block;
+    margin: 3rem auto 2rem;
+    max-width: 100px;
+  }
+}
+
+.menu-open {
+  position: fixed;
+  z-index: 101;
+}
+
+// Hamburger with thanks to Jonathon Suh
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7;
+  }
+  .hamburger.is-active:hover {
+    opacity: 0.7;
+  }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: #fff;
+  }
+.hamburger-box {
+  width: 40px;
+  height: 19px;
+  display: inline-block;
+  position: relative;
+  @include for-tablet-landscape-up {
+    height: 24px;
+  };
+}
+.hamburger-inner {
+  display: block;
+  top: 50%;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+  @include for-tablet-landscape-up {
+    width: 40px;
+    height: 4px;
+  };
+}
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+.hamburger-inner::before {
+  top: -7px;
+  @include for-tablet-landscape-up {
+    top: -10px;
+  };
+}
+.hamburger-inner::after {
+  bottom: -7px;
+  @include for-tablet-landscape-up {
+    bottom: -10px;
+  };
+}
+
+// Spin
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .hamburger--spin .hamburger-inner::before {
+    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
+  .hamburger--spin .hamburger-inner::after {
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.hamburger--spin.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .hamburger--spin.is-active .hamburger-inner::before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
+  .hamburger--spin.is-active .hamburger-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }

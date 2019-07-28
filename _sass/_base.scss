@@ -1,7 +1,7 @@
 // Reset spacing
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure, img {
   margin: 0;
   padding: 0;
 }
@@ -14,6 +14,15 @@ html {
 }
 body {
   font-family: $base-font-family;
+  background-color: $background-grey;
+}
+.container {
+  max-width: 650px;
+  margin: 0px auto;
+  padding: 0 10px;
+  @include for-tablet-landscape-up {
+    padding: 0;
+  }
 }
 h1, h2, h3, h4 {
   font-family: $headings-font-family;
@@ -48,9 +57,14 @@ ul {
 img {
   max-width: 100%;
 }
+button {
+  &:focus {
+    outline: none;
+  }
+}
 hr {
   border-bottom: 2px solid $second-color;
 }
 section {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
