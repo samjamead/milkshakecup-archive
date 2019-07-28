@@ -4,4 +4,32 @@
 
 - hole: 2
   name: Grand Oak
-  description: Probably the same club that you took on the first hole, but this is slightly downhill, so plays a little shorter. 
+  description: Probably the same club that you took on the first hole, but this is slightly downhill, so plays a little shorter.
+
+- hole: 3
+  name: Foxes Drift
+  description: The longest hole on the course, most can safely ignore the bunker on the right as it's a long way short of the green. Out of bounds left, out of bounds long.
+
+- hole: 4
+  name: Willows
+  description: Played entirely over water, there's only about 6 feet of saftey short of the front of the green. Anything right is safe, but do shout fore if there's anyone on the 6th green!
+
+- hole: 5
+  name: Rabbit Copse
+  description: A narrow hole, with a lateral water hazard all the way up the left, and bunkers protecting the green. Accuracy here is extremly important!
+
+- hole: 6
+  name: Lakeside
+  description: The hardest hole on the course, the green is extremely well protected by a lake. It is possible to lay up down the left hand side, but make sure you carry the stream that feeds the lake.
+
+- hole: 7
+  name: The Burn
+  description: A tricky three-tierd green is protected by a wee burn at the front of the geen. It's possible to putt into the water hazard...
+
+- hole: 8
+  name: Badgers Run
+  description: The shortest and easiest hole on the course, just a flick with a wedge – or a nine iron at most. A dry lateral hazard awaits a thinned tee shot, so keep your head down and swing through the ball. Long is safe.
+
+- hole: 9
+  name: Tuberfield
+  description: The finishing hole plays at least a club longer than its yardage. Anything right is wet, so play straight and low into the two-tierd green, and soak up the roars of the crowd as you walk up to the putting surface.

@@ -3,11 +3,32 @@ layout: default
 ---
 
 <section>
+
+  <div class="page__hero" >
+    <div class="container">
+      <h2>Course Guide: The WGA</h2>
+      <h3>Westcountry Golf Academy</h3>
+    </div>
+  </div>
+
   <div class="container">
-    {% for hole in site.data.wga %}
-      <h2><span>{{ hole.hole }}</span> &ndash; {{ hole.name }}</h2>
-      <img src="./assets/img/wga/{{ hole.hole }}.jpg" alt="WGA Hole" />
-      <p>{{ hole.description }}</p>
-    {% endfor %}
+
+    <p><span class="dropcap">T</span>he Westcountry Golf Acadamy is Mid Devon's best kept secret. An imacculately kept nine-hole par-three course, the WGA is more challenging than it first appears. Water on nearly every hole keeps the mind focused from the tee, and slow but true greens require attention while putting. Don't be fooled by the fact that several holes have similar yardages; you'll certainly want a full bag of clubs.</p>
+
+    <h3>Getting there</h3>
+    <p>The course is a seven minute walk or a one minute drive from Tiverton Parkway railway station. Chuck this in Google Maps: <a href="https://www.google.com/maps/place/WGA+Golf+Course/@50.9206602,-3.3633439,15z/data=!4m12!1m6!3m5!1s0x0:0x1a2ccb920f8f3382!2sWestcountry+Golf+Academy+Ltd!8m2!3d50.9206602!4d-3.3633439!3m4!1s0x486d94565081bed7:0xe0149895358e0375!8m2!3d50.9188997!4d-3.3663332" target="_blank">WGA Golf Course, EX16 7EH</a></p>
+
+    <h3>Local Rules</h3>
+    <ul>
+      <li><strong>Water Hazards</strong> &ndash; Take a drop from knee height within two club lengths, no nearer the hole. Your drop must leave the hazard <em>between</em> you and the green.</li>
+    </ul>
+
+    <div class="hole__by__hole">
+      {% for hole in site.data.wga %}
+        <h2><span>{{ hole.hole }}</span> &ndash; {{ hole.name }}</h2>
+        <img src="./assets/img/wga/{{ hole.hole }}.jpg" alt="WGA Hole" />
+        <p>{{ hole.description }}</p>
+      {% endfor %}
+    </div>
   </div>
 </section>

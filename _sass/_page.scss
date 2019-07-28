@@ -5,19 +5,31 @@
   align-items: center;
   width: 100%;
   background: $highlight-color;
+  margin-bottom: 2rem;
   @include for-tablet-landscape-up {
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 3rem;
   }
-  h2 {
+  h2, h3 {
     text-align: center;
     margin-bottom: 1rem;
     line-height: 1;
     color: $brand-color;
+  }
+  h2 {
     font-size: 24px;
     @include for-tablet-landscape-up {
-      text-align: left;
       font-size: 36px;
+    }
+  }
+  h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    @include for-tablet-landscape-up {
+      font-size: 14px;
     }
   }
 }
@@ -119,5 +131,19 @@
   }
   @include for-tablet-landscape-up {
     display: block;
+  }
+}
+.hole__by__hole {
+  margin-top: 2rem;
+  @include for-tablet-landscape-up {
+    margin-top: 3rem;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  p {
+    @include for-tablet-landscape-up {
+      margin-bottom: 2rem;
+    }
   }
 }
