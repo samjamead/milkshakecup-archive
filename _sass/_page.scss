@@ -36,6 +36,7 @@
 .honours {
   margin-top: 1rem;
   margin-bottom: 3rem;
+  border-top: 1px solid $second-color;
   @include for-tablet-landscape-up {
     margin-top: 2rem;
   }

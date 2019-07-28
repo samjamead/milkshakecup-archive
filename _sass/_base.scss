@@ -37,7 +37,7 @@ h3 {
   font-size: 20px;
   margin-top: 2rem;
 }
-p {
+p, li {
   font-size: $base-font-size;
   line-height: 1.6;
   margin-bottom: 1em;
@@ -47,12 +47,9 @@ a {
   text-decoration: none;
   color: $second-color;
 }
-ul {
+ul, ol {
   margin-left: 2rem;
   margin-bottom: 2rem;
-  li {
-    margin-bottom: 1rem;
-  }
 }
 img {
   max-width: 100%;

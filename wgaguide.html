@@ -18,17 +18,21 @@ layout: default
     <h3>Getting there</h3>
     <p>The course is a seven minute walk or a one minute drive from Tiverton Parkway railway station. Chuck this in Google Maps: <a href="https://www.google.com/maps/place/WGA+Golf+Course/@50.9206602,-3.3633439,15z/data=!4m12!1m6!3m5!1s0x0:0x1a2ccb920f8f3382!2sWestcountry+Golf+Academy+Ltd!8m2!3d50.9206602!4d-3.3633439!3m4!1s0x486d94565081bed7:0xe0149895358e0375!8m2!3d50.9188997!4d-3.3663332" target="_blank">WGA Golf Course, EX16 7EH</a></p>
 
-    <h3>Local Rules</h3>
-    <ul>
-      <li><strong>Water Hazards</strong> &ndash; Take a drop from knee height within two club lengths, no nearer the hole. Your drop must leave the hazard <em>between</em> you and the green.</li>
-    </ul>
-
     <div class="hole__by__hole">
       {% for hole in site.data.wga %}
-        <h2><span>{{ hole.hole }}</span> &ndash; {{ hole.name }}</h2>
+        <h2><span>Hole {{ hole.hole }}</span> &ndash; {{ hole.name }}</h2>
         <img src="./assets/img/wga/{{ hole.hole }}.jpg" alt="WGA Hole" />
         <p>{{ hole.description }}</p>
       {% endfor %}
     </div>
+
+    <h3>Competition Interpretations of Local Rules</h3>
+    <p>For some reason the course distinguishes between water hazards and lateral water hazards. We're going to simplify things and treat them the same.</p>
+    <ul>
+      <li><strong>Water Hazards</strong> &ndash; Take a drop from knee height within two club lengths, no nearer the hole, as close to the line of entry as possible. If the hazard was between you and the hole when you hit the ball in the water, your drop must leave the hazard between you and the green. The drop counts as one penalty stroke (so if you land in the water off the tee, the drop is your second shot, and you'll play your third from your dropped ball).</li>
+      <li><strong>Out of Bounds Off the Tee</strong> &ndash; Take a drop from knee height within two club lengths, no nearer the hole, as close to where the ball went out of bounds as possible. One stroke penalty (so you'll play your third shot from where you drop a new ball).</li>
+      <li><strong>Staked Trees</strong> &ndash; If your ball or stance come within two clublengths of a staked tree, you must take a free drop no nearer the hole at the nearest point of relief (i.e. the closest point that you can get two clublengths away from the staked tree, in any direction, as long as it is no nearer the hole).</li>
+    </ul>
+
   </div>
 </section>
