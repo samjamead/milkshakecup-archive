@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    {% for hole in site.data.wga %}
+      <h2><span>{{ hole.hole }}</span> &ndash; {{ hole.name }}</h2>
+      <img src="./assets/img/wga/{{ hole.hole }}.jpg" alt="WGA Hole" />
+      <p>{{ hole.description }}</p>
+    {% endfor %}
+  </div>
+</section>
