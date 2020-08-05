@@ -1,26 +1,26 @@
 - name: Thomas Clements
-  handicap: 7
+  handicap: TBC
   country: North Yorkshire
   flag: yorkshire.png
   bio: The defending champion
   photo: thomas.jpg
 
 - name: Greg Butt
-  handicap: 18
+  handicap: TBC
   country: England
   flag: england.jpg
   bio:
   photo: greg.jpg
 
 - name: Harry Langdon
-  handicap: 7
+  handicap: TBC
   country: England
   flag: england.jpg
   bio:
   photo: harry.jpg
 
 - name: Alan Mead
-  handicap: 14
+  handicap: TBC
   country: England
   flag: england.jpg
   bio:
@@ -34,21 +34,21 @@
   photo: jamie.jpg
 
 - name: Sam Mead
-  handicap: 6
+  handicap: TBC
   country: England
   flag: devon.svg
   bio:
   photo: sam.jpg
 
 - name: Cristina Revuelta Aguilar
-  handicap: 7
+  handicap: TBC
   country: Spain
   flag: spain.png
   bio:
   photo: cristina.jpg
 
 - name: Alistair Shepherd
-  handicap: 18
+  handicap: Absent
   country: Scotland
   flag: scotland.png
   bio:
@@ -62,7 +62,7 @@
   photo: samuel.jpg
 
 - name: Josh Taylor
-  handicap: 5
+  handicap: TBC
   country: England
   flag: england.jpg
   bio:
